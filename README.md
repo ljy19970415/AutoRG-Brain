@@ -41,12 +41,11 @@ To test the segmentation performance, first, prepare a test file in the followin
 ```json
 [
     {
-        "dis": "disease type of your test data" or "unknown",
+        "dis": "disease type of your test data or unknown",
         "image": "/path/to/image.nii.gz",
         "label": "/path/to/seg.nii.gz",
-        "modal": "T2FLAIR" or "T1WI" or "T2WI" or "DWI"
-    },
-    ...
+        "modal": "T2FLAIR  or T1WI or T2WI or DWI"
+    }
 ]
 ```
 To test segmentation metric on anomaly segmentation dataset and output the anomaly and brain strucuture segmentation result, enter the AutoRG-Brain folder and run the following command in the terminal. Here, we use 'srun' command as the example:
@@ -89,8 +88,6 @@ srun -p partition_name -N 1 --quotatype auto --gres=gpu:1 python test_llm.py --e
 ```
 
 ## RadGenome-Brain MRI Dataset
-
-![](./assets/release_dataset.png)
 
 [RadGenome-Brain MRI Dataset]() is a curated grounded report generation dataset. It comprises 1,007 cases of 3,408 imaging-report pairs. The image data are sourced from five well-known public anomaly segmentation datasets, including the ISLES2022, White Matter Hyperintensity Challenge Dataset (WMH), BraTS2021, BraTS-MEN, and BraTS-MET, covering 6 MRI modalities (T1-weighted, T2-weighted, DWI, T2-Flair, ADC, and T1-contrast) and 5 distinct disease types (infarction, white matter hyperintensity, glioma, meningioma, and metastasis). We invite five radiologists (4-5 years) to write report findings and impressions for the annotated anomaly area of each patient case. The training, validation, and testing split are shown in below.
 
