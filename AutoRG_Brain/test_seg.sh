@@ -1,0 +1,1 @@
+srun -p partition_name -N 1 --quotatype auto --gres=gpu:1 python test_seg.py --modal T2FLAIR --save_output_nii --dice_type abnormal -model_folder /path/to/checkpoint/folder -chk AutoRG_Brain_SEG -test /path/to/the/above/test_file.json -o /output/folder/to/save/anomaly/and/structure/segmentation
