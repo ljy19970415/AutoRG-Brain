@@ -1,0 +1,2 @@
+srun -p medai -N 1 --quotatype reserved --job-name=preprocess python -m experiment_planning_bucket.nnUNet_plan_and_preprocess_llm_bucket -t 20 --verify_dataset_integrity
+srun -p medai -N 1 --quotatype reserved --job-name=seg --gres=gpu:1 python train_seg.py 3d_fullres nnUNetTrainerV2 020 0 --network_type share --bucket --abnormal_type intense -train_batch 5 -val_batch 5 -train /mnt/petrelfs/leijiayu/nnUNet/nnUNet_raw/nnUNet_raw_data/Task020_seg_test/test_file.json

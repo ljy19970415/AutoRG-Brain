@@ -1,0 +1,22 @@
+{
+    "ATLAS": 30,
+    "GLI_T1WI": 60,
+    "GLI_T2FLAIR": 50,
+    "GLI_T2WI": 50,
+    "ISLES": 30,
+    "MEN_T1WI": 50,
+    "MEN_T2FLAIR": 50,
+    "MEN_T2WI": 50,
+    "MET_T1WI": 30,
+    "MET_T2FLAIR": 30,
+    "MET_T2WI": 30,
+    "PED_T1WI": "all",
+    "PED_T2FLAIR": "all",
+    "PED_T2WI": "all",
+    "SIX": 2166,
+    "SSA_T1WI": "all",
+    "SSA_T2FLAIR": "all",
+    "SSA_T2WI": "all",
+    "WMH_T1WI": "all",
+    "WMH_T2FLAIR": "all"
+}

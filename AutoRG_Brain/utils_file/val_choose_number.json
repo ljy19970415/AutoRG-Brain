@@ -1,0 +1,22 @@
+{
+    "ATLAS": 2,
+    "GLI_T1WI": 2,
+    "GLI_T2FLAIR": 2,
+    "GLI_T2WI": 2,
+    "ISLES": 2,
+    "MEN_T1WI": 2,
+    "MEN_T2FLAIR": 2,
+    "MEN_T2WI": 2,
+    "MET_T1WI": 2,
+    "MET_T2FLAIR": 2,
+    "MET_T2WI": 2,
+    "PED_T1WI": 2,
+    "PED_T2FLAIR": 2,
+    "PED_T2WI": 2,
+    "SIX": 2,
+    "SSA_T1WI": 2,
+    "SSA_T2FLAIR": 2,
+    "SSA_T2WI": 2,
+    "WMH_T1WI": 2,
+    "WMH_T2FLAIR": 2
+}

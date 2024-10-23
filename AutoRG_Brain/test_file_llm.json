@@ -1,0 +1,10 @@
+[
+    {
+        "image": "BraTS2023_GLI/ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00006-000/BraTS-GLI-00006-000-t2f.nii.gz",
+        "label": "BraTS2023_GLI/ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-00006-000/BraTS-GLI-00006-000-seg.nii.gz",
+        "modal": "T2FLAIR",
+        "report": {
+            "On the FLAIR sequence, the aforementioned lesion within the left frontal lobe exhibits high signal intensity. Surrounding brain edema is noted.": "mask"
+        }
+    }
+]

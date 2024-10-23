@@ -1,0 +1,8 @@
+[
+    {
+        "dis": "GLI",
+        "image": "BraTS2023_GLI/ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01161-000/BraTS-GLI-01161-000-t2f.nii.gz",
+        "label": "BraTS2023_GLI/ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData/BraTS-GLI-01161-000/BraTS-GLI-01161-000-seg.nii.gz",
+        "modal": "T2FLAIR"
+    }
+]

@@ -1,0 +1,18 @@
+{
+    "DWI":[
+        "sub-strokecase0106_ses-0001_dwi",
+        "sub-strokecase0163_ses-0001_dwi"
+    ],
+    "T1WI":[
+        "BraTS-GLI-01303-000-t1n",
+        "BraTS-GLI-00053-000-t1n"
+    ],
+    "T2WI":[
+        "BraTS-GLI-01303-000-t2w",
+        "BraTS-GLI-00053-000-t2w"
+    ],
+    "T2FLAIR":[
+        "BraTS-GLI-01303-000-t2f",
+        "BraTS-GLI-00053-000-t2f"
+    ]
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "dis": "hammer_copy",
+        "image": "/mnt/petrelfs/leijiayu/nnUNet/nnUNet_raw/nnUNet_raw_data/Task001_hammer/imagesTs_copy/a02_image_0000.nii.gz",
+        "label": "/mnt/petrelfs/leijiayu/nnUNet/nnUNet_raw/nnUNet_raw_data/Task001_hammer/labelsTs/a02_image.nii.gz",
+        "modal": "T1WI"
+    },
+    {
+        "dis": "hammer_copy",
+        "image": "/mnt/petrelfs/leijiayu/nnUNet/nnUNet_raw/nnUNet_raw_data/Task001_hammer/imagesTs_copy/a04_image_0000.nii.gz",
+        "label": "/mnt/petrelfs/leijiayu/nnUNet/nnUNet_raw/nnUNet_raw_data/Task001_hammer/labelsTs/a04_image.nii.gz",
+        "modal": "T1WI"
+    },
+    {
+        "dis": "hammer_copy",
+        "image": "/mnt/petrelfs/leijiayu/nnUNet/nnUNet_raw/nnUNet_raw_data/Task001_hammer/imagesTs_copy/a15_image_0000.nii.gz",
+        "label": "/mnt/petrelfs/leijiayu/nnUNet/nnUNet_raw/nnUNet_raw_data/Task001_hammer/labelsTs/a15_image.nii.gz",
+        "modal": "T1WI"
+    },
+    {
+        "dis": "hammer_copy",
+        "image": "/mnt/petrelfs/leijiayu/nnUNet/nnUNet_raw/nnUNet_raw_data/Task001_hammer/imagesTs_copy/a17_image_0000.nii.gz",
+        "label": "/mnt/petrelfs/leijiayu/nnUNet/nnUNet_raw/nnUNet_raw_data/Task001_hammer/labelsTs/a17_image.nii.gz",
+        "modal": "T1WI"
+    },
+    {
+        "dis": "hammer_copy",
+        "image": "/mnt/petrelfs/leijiayu/nnUNet/nnUNet_raw/nnUNet_raw_data/Task001_hammer/imagesTs_copy/a18_image_0000.nii.gz",
+        "label": "/mnt/petrelfs/leijiayu/nnUNet/nnUNet_raw/nnUNet_raw_data/Task001_hammer/labelsTs/a18_image.nii.gz",
+        "modal": "T1WI"
+    },
+    {
+        "dis": "hammer_copy",
+        "image": "/mnt/petrelfs/leijiayu/nnUNet/nnUNet_raw/nnUNet_raw_data/Task001_hammer/imagesTs_copy/a19_image_0000.nii.gz",
+        "label": "/mnt/petrelfs/leijiayu/nnUNet/nnUNet_raw/nnUNet_raw_data/Task001_hammer/labelsTs/a19_image.nii.gz",
+        "modal": "T1WI"
+    }
+]
