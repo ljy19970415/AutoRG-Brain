@@ -101,7 +101,7 @@ network_training_output_dir_base = '/path/to/store/output/checkpoints_logs_tenso
 preprocessing_output_dir_bucket = 's3://path//to//store//preprocessed_files'
 nnUNet_cropped_data_bucket = 's3://path//to//store//cropped_files'
 ```
-You can store your preprocessed data under 'preprocess_data/', the training json files under 'raw_data/', and the model checkpoints, logs, tensorboard outputs under 'saved_model/'. You can also save it in other local folders of yours.
+<!-- You can store your preprocessed data under 'preprocess_data/', the training json files under 'raw_data/', and the model checkpoints, logs, tensorboard outputs under 'saved_model/'. You can also save it in other local folders of yours. -->
 
 ### Prepare Training Files  
 Prepare the following json files in the 'Task' sub-folders under 'raw_data/'
@@ -122,7 +122,7 @@ The case_dic path should be set at the dataset loading document, for segmentatio
 
 Note:You can generate the case identifiers based on get_case_identifier() function in 'AutoRG_Brain/experiment_planning_bucket/cropping_llm_bucket.py'
 
-```json
+```code
 {
     "DWI":[
         case_identifier,
@@ -134,7 +134,7 @@ Note:You can generate the case identifiers based on get_case_identifier() functi
 } 
 ```
  - dataset.json : Store the information of the trainig dataset, especially the image paths and MRI sequence
- ```json
+ ```code
  {
     "description": "the training dataset",
     "labels": {
@@ -166,7 +166,7 @@ Note:You can generate the case identifiers based on get_case_identifier() functi
 ```shell
 ## segmentation test file ##
 ```
-```json
+```code
 {
     "training":[case_identifier, .. ],
     "validation": {
@@ -177,7 +177,7 @@ Note:You can generate the case identifiers based on get_case_identifier() functi
 ```shell
 ## report geenration llm test file ##
 ```
-```json
+```code
 {
     "region_report":{
         "training":{
