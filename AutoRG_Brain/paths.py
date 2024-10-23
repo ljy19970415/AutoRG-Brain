@@ -30,14 +30,13 @@ PLEASE READ paths.md FOR INFORMATION TO HOW TO SET THIS UP
 # preprocessing_output_dir = os.environ['nnUNet_preprocessed'] if "nnUNet_preprocessed" in os.environ.keys() else None
 # network_training_output_dir_base = os.path.join(os.environ['RESULTS_FOLDER']) if "RESULTS_FOLDER" in os.environ.keys() else None
 
-base = '/mnt/petrelfs/leijiayu/nnUNet/nnUNet_raw'
-preprocessing_output_dir = '/mnt/petrelfs/leijiayu/nnUNet/nnUNet_preprocessed'
-network_training_output_dir_base = '/mnt/petrelfs/leijiayu/nnUNet/nnUNet_trained_models_my'
+base = '/path/to/store/raw_data'
+preprocessing_output_dir = '/path/to/store/preprocessed_files'
+network_training_output_dir_base = '/path/to/store/output/checkpoints_logs_tensorboards_etc'
 
-### bucket path ####
-preprocessing_output_dir_bucket = 's3://leijiayu_nnunet//nnUNet_preprocessed'
-nnUNet_cropped_data_bucket = 's3://leijiayu_nnunet//nnUNet_cropped_data'
-
+#### bucket path If you use storage like aws s3 ####
+preprocessing_output_dir_bucket = 's3://path//to//store//preprocessed_files'
+nnUNet_cropped_data_bucket = 's3://path//to//store//cropped_files'
 
 if base is not None:
     nnUNet_raw_data = join(base, "nnUNet_raw_data")
