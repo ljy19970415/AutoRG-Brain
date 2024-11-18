@@ -1,0 +1,18 @@
+[
+      {
+        "image": "/DB/rhome/yichaowu/Demo_模型对接/Brain_MRI_demo_data/myDWI/a106649870_myDWI.nii.gz",
+        "modal": "DWI"
+      },
+      {
+        "image": "/DB/public/SSPH/6th_mri_04/a106649870/a106649870_T1W_20210812075710_301.nii.gz",
+        "modal": "T1WI"
+      },
+      {
+        "image": "/DB/public/SSPH/6th_mri_04/a106649870/a106649870_T2W_TSE_20210812075710_401.nii.gz",
+        "modal": "T2WI"
+      },
+      {
+        "image": "/DB/public/SSPH/6th_mri_04/a106649870/a106649870_FLAIR_20210812075710_701.nii.gz",
+        "modal": "T2FLAIR"
+      }
+]

@@ -1,0 +1,19 @@
+{
+    "training":[
+        "BraTS-GLI-00053-000-t1n",
+        "sub-strokecase0106_ses-0001_dwi",
+        "sub-strokecase0163_ses-0001_dwi",
+        "sub-strokecase0214_ses-0001_dwi",
+        "sub-strokecase0074_ses-0001_dwi",
+        "Singapore_69_FLAIR",
+        "Singapore_69_T1",
+        "Singapore_53_FLAIR"
+    ],
+    "validation": {
+        "test":[
+            "BraTS-GLI-01303-000-t1n",
+            "BraTS-GLI-01303-000-t2w",
+            "BraTS-GLI-01303-000-t2f"
+        ]
+    }
+}

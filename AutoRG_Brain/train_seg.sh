@@ -1,0 +1,2 @@
+python -m experiment_planning_bucket.nnUNet_plan_and_preprocess_llm_bucket -t 20 --verify_dataset_integrity
+python train_seg.py 3d_fullres nnUNetTrainerV2 020 0 --network_type share --bucket --abnormal_type intense -train_batch 5 -val_batch 5 -train AutoRG-Brain-master/raw_data/Task001_seg_test/test_file.json

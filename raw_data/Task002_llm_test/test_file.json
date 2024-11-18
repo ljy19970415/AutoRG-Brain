@@ -1,0 +1,20 @@
+{
+    "region_report":{
+        "training":{
+            "BraTS-GLI-00291-000-t1n": {
+                "Two lesions in the right parietal lobe show iso to low signal, indistinct boundaries, associated with surrounding edema but no impact observed on the midline structures.": "mask"
+            }
+        },
+        "validation":{
+            "Singapore_69_FLAIR": {
+                "Periventricular white matter shows multiple punctate T1W hyperintense signals. No midline shift is observed.": "mask"
+            }
+        }
+    },
+    "training":[
+        "BraTS-GLI-00291-000-t1n"
+    ],
+    "validation":[
+        "Singapore_69_FLAIR"
+    ]
+}

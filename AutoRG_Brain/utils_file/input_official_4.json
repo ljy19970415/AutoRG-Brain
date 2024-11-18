@@ -1,0 +1,7 @@
+[
+    {
+      "image": "/DB/rhome/yichaowu/Demo_模型对接/Brain_MRI_demo_data/myDWI/a106649870_myDWI.nii.gz",
+      "modal": "DWI",
+      "label2":"/DB/rhome/yichaowu/Demo_模型对接/github_testdata/output4/anatomy.nii.gz"
+    }
+]

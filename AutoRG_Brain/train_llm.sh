@@ -1,0 +1,2 @@
+python -m experiment_planning_bucket.nnUNet_plan_and_preprocess_llm_bucket -t 21 --verify_dataset_integrity --plan_file AutoRG_Brain/utils_file/nnUNetPlansv2.1_plans_3D.pkl
+python train_llm.py 3d_fullres nnUNetTrainerV2 021 0 --dataset six --size 4 --bucket --no_aug --feature_layer 2 -train_batch 10 -val_batch 10 --network_type share -seg_pretrained AutoRG_Brain_SEG.model -train AutoRG-Brain-master/raw_data/Task002_llm_test/test_file.json --plans_file AutoRG_Brain/utils_file/nnUNetPlansv2.1_plans_3D.pkl
